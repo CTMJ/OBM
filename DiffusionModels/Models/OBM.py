@@ -4,7 +4,7 @@ from DiffusionModels.Models.HD import HDGraph
 import DiffusionModels.Factor.Hamiltonian as Hamiltionians
 
 
-class OBM(HDGraph, WGraph):  # 个人环境因素的影响模型
+class OBM(HDGraph, WGraph):
 
     def __init__(self, weight_matrix: np.ndarray):
         self.weight_matrix = weight_matrix

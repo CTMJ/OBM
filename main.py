@@ -12,4 +12,4 @@ if __name__ == '__main__':
     #RD = RDTest(ct.FILE_PATH_2000)
     CompareTest = CompareTest(71, ct.FILE_PATH_2000)
     #RD.draw("E:/project/Experiment/TestResult/RD2000umt.png")
-    CompareTest.draw_RH_DH_OBM_MsgAndTime("/Users/ChentingJIANG/Desktop/the university of tasmania/2020-2021 Research/project/MJ Project/Experiment2/TestResult/M_u.png")
+    CompareTest.draw_RH_DH_OBM_MsgAndTime("TestResult/M_u.png")
